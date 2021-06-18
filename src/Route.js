@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, useHistory } from 'react-router-dom';
+import { Route } from 'react-router-dom';
 import HomePage from './pages/Home';
 import TotalCoinPage from './pages/TotalCoin';
 
