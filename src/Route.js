@@ -4,7 +4,7 @@ import HomePage from './pages/Home';
 import TotalCoinPage from './pages/TotalCoin';
 
 const Router = () => {
-  const history = useHistory();
+  
   return (
     <div>
       <Route path="/" exact component={HomePage} />
