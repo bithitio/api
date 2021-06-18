@@ -1,0 +1,456 @@
+/*vvvvvv css needed here vvvvvv*/
+.bgz-1{background-color: #0d4c80 !important;}
+.bgz-2{background-color: #2d93fe !important;}
+.bgz-3{background-color: #1ed3dd !important;}
+.bgz-4{background-color: #5ee5ec !important;}
+
+
+
+.roadmap-container {
+  max-width: 1200px;font-family: 'Poppins', sans-serif;
+  margin:0 auto;
+  padding: 0 15px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.roadmap-cover {
+  position: relative;
+  z-index: 10;
+}
+
+.road-layer {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.q-circle {
+  width: 130px;
+  height: 130px;
+  background-color: #eee;
+  border-radius: 100%;
+  padding: 10px;
+  position: relative;
+  z-index: 2;
+  margin-bottom: 40px;
+}
+
+.q-circle:after {
+  content: "";
+  display: block;
+  width: 2px;
+  height: 80px;
+  background-color: #111;
+  margin: auto;
+  position: relative;
+  z-index: -1;
+  margin-top: 10px;
+}
+
+.q-circle .inner-circle {
+  background-color: #fff;
+  border-radius: 100%;
+  width: 100%;
+  height: 100%;
+  color:#111;
+  text-align: center;
+  line-height: 110px;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.arrow-icon {
+  font-size: 120px;
+  color:#1ed3dd;
+}
+
+.q1-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 25%;
+  padding-left: 30px;
+}
+
+.q2-box {
+  width: 20%;
+  text-align: center;
+}
+
+.road-content {
+  width: 20%;
+  margin: 0 2%;
+  padding-left: 15px;
+  border-left: 1px solid #111;
+  padding-bottom: 80px;
+  position: relative;
+}
+
+.road-content:after {
+  content: "";
+  display: block;
+  width: 16px;
+  height: 16px;
+  border-radius: 100%;
+  background-color: #111;
+  position: absolute;
+  bottom: 0;
+  left: -8px;
+}
+
+.road-content h3 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.road-content p {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  color:#444444;
+}
+
+.content-1 {
+  border-color: #0c4c80;
+}
+
+.content-1 h3 {
+  color:#0c4c80;
+}
+
+.content-1.road-content:after {
+  background-color: #0c4c80;
+}
+
+.content-2 {
+  border-color: #2d92fd;
+  padding-bottom: 40px;
+}
+
+.content-2 h3 {
+  color:#2d92fd;
+}
+
+.content-2.road-content:after {
+  background-color: #2d92fd;
+}
+
+.content-3 {
+  padding-bottom: 40px;
+}
+
+.content-3 h3 {
+  color:#1ed2dc;
+}
+
+.content-3 {
+  border-color: #1ed2dc;
+}
+
+.content-3.road-content:after {
+  background-color: #1ed2dc;
+}
+
+.road-layer {
+  position: relative;
+  padding-bottom: 12px;
+}
+
+.road-layer:after {
+  content: "";
+  display: block;
+  width: 92%;
+  height: 40px;
+  background-color: #eee;
+  border-radius: 30px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.road-layer.r-layer-2:after {
+  content: "";
+  display: block;
+  width: 84%;
+  height: 40px;
+  background-color: #eee;
+  border-radius: 30px;
+  position: absolute;
+  bottom: 0;
+  left: 8%;
+  z-index: -1;
+}
+
+.road-layer.r-layer-3:after {
+  content: "";
+  display: block;
+  width: 84%;
+  height: 40px;
+  background-color: #eee;
+  border-radius: 30px;
+  position: absolute;
+  bottom: 0;
+  left: 8%;
+  z-index: -1;
+}
+
+.r-layer-2 {
+  margin-top: 17px;
+}
+
+.right-half {
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+  text-align: right;
+  margin-top: -40px;
+}
+
+.right-half img {
+  width: 110px;
+}
+
+.left-half {
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+  text-align: left;
+  margin-top: -40px;
+}
+
+.left-half img {
+  width: 125px;
+}
+
+.r-layer-2 {
+  justify-content: flex-end;
+}
+
+.r-layer-2 .road-content {
+  width: 20%;
+}
+
+.r-layer-3 {
+  margin-top: 17px;
+}
+
+.q3-box {
+  width: 25%;
+  text-align: center;
+}
+
+.q3-box .q-circle {
+  display: inline-block;
+}
+
+.red {
+  color:red;
+}
+
+.website-with-icon {
+  color:#111!important;
+  font-weight: 600;
+  margin: 5px 0;
+  display: block;
+}
+
+.website-with-icon:hover {
+  color:#1ed2dc!important;
+  text-decoration: none;
+}
+
+.website-with-icon img {
+  width: 30px;
+}
+
+.q4-box {
+  width: 16%;
+}
+
+.r-layer-2 .road-content.content-4 {
+  width: 18%;
+}
+
+.r-layer-4 {
+  position: relative;
+}
+
+.the-binance-icon {
+  position: absolute;
+  left: 0px;
+  bottom: -55px;
+  width: 200px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.the-binance-icon .flag-img {
+  width: 80px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.the-binance-icon .binance-img  {
+  width: 140px;
+}
+
+.section-roadmap {
+  padding: 80px 0;
+  background-color: #f8f8f8;
+}
+
+/*responsive*/
+@media only screen and (max-width: 1030px) {
+
+  .road-content p {
+    font-size: 15px;
+  }
+
+  .road-layer:after {
+    width: 90%;
+  }
+
+  .road-layer.r-layer-2:after {
+    width: 80%;
+    left: 10%;
+  }
+
+  .road-layer.r-layer-3:after {
+    width: 80%;
+    left: 10%;
+  }
+
+}
+
+@media only screen and (max-width: 991px) {
+
+  .road-layer:after {
+    display: block;
+    width: 30px;
+    left: 50px;
+    top: 0;
+    height: 100%;
+    bottom: auto;
+  }
+
+  .road-content p br {
+    display: none;
+  }
+
+  .road-layer.r-layer-2:after {
+    display: block;
+    width: 30px;
+    left: 50px;
+    top: 0;
+    height: 100%;
+    bottom: auto;
+  }
+
+  .road-layer.r-layer-3:after {
+    display: block;
+    width: 30px;
+    left: 50px;
+    top: 0;
+    height: 100%;
+    bottom: auto;
+  }
+
+  .right-half {
+    display: none;
+  }
+
+  .left-half {
+    display: none;
+  }
+
+  .arrow-icon {
+    display: none;
+  }
+
+  .roadmap-cover {
+    max-width: 480px;
+    margin: auto;
+  }
+
+  .q1-box {
+    width: 100%;
+    padding: 0;
+  }
+
+  .road-content {
+    border-left: none;
+    width: 100%;
+    padding: 15px 0;
+    margin-left: 65px;
+    padding-left: 30px;
+  }
+
+  .road-content:after {
+    bottom: auto;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .q-circle:after {
+    display: none;
+  }
+
+  .r-layer-2 {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  .r-layer-2 .road-content {
+    width: 100%;
+  }
+
+  .m-order-1 {
+    order:1;
+  }
+
+  .m-order-2 {
+    order:2;
+  }
+
+  .m-order-3 {
+    order:3;
+  }
+
+  .m-order-4 {
+    order:4;
+  }
+
+  .m-order-5 {
+    order:5;
+  }
+
+  .r-layer-2 .road-content.content-4 {
+    width: 100%;
+  }
+
+  .the-binance-icon {
+    position: relative;
+    bottom: auto;
+    left: auto;
+    width: 240px;
+    justify-content: space-between;
+    left: -5px;
+    bottom: -15px;
+  }
+
+  .the-binance-icon .flag-img {
+    position: relative;
+    order: 2;
+  }
+
+  .road-content p {
+    font-size: 18px;
+  }
+}
